@@ -89,10 +89,3 @@ Run everything with ⌘U, or:
 xcodebuild test -project "Weather App.xcodeproj" -scheme "Weather App" \
   -destination 'platform=iOS Simulator,name=iPhone 17' -parallel-testing-enabled NO
 ```
-
-## Known trade-offs (marked `ponytail:` in code)
-
-- The repository's weather cache is memory-only and has no size limit; a session only touches a few cities.
-- The location service handles one request at a time.
-- Icons are decoded on the main actor; they're about 5 KB each.
-- ZIP-code search and a recent-searches list were left out because the brief doesn't require them.
