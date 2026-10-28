@@ -1,0 +1,57 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api.openweathermap.org/data/2.5/weather?lat=30.27&lon=-97.74&units=metric&lang=es&appid={API_KEY}"
+  },
+  "response": {
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "coord": {
+        "lon": -97.74,
+        "lat": 30.27
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "algo de nubes",
+          "icon": "02n"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 19.21,
+        "feels_like": 19.43,
+        "temp_min": 17.86,
+        "temp_max": 20.26,
+        "pressure": 1020,
+        "humidity": 86,
+        "sea_level": 1020,
+        "grnd_level": 995
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 1.54,
+        "deg": 130
+      },
+      "clouds": {
+        "all": 20
+      },
+      "dt": 1793176547,
+      "sys": {
+        "type": 2,
+        "id": 2105175,
+        "country": "US",
+        "sunrise": 1793191324,
+        "sunset": 1793231232
+      },
+      "timezone": -18000,
+      "id": 4671654,
+      "name": "Austin",
+      "cod": 200
+    }
+  }
+}

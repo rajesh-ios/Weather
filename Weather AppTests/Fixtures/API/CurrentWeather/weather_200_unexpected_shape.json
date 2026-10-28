@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api.openweathermap.org/data/2.5/weather?lat=30.27&lon=-97.74&units=imperial&lang=en&appid={API_KEY}"
+  },
+  "response": {
+    "statusCode": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "cod": 200,
+      "main": "unavailable",
+      "name": "Austin"
+    }
+  }
+}

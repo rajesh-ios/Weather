@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api.openweathermap.org/geo/1.0/direct?q=&limit=5&appid={API_KEY}"
+  },
+  "response": {
+    "statusCode": 400,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "cod": "400",
+      "message": "Nothing to geocode"
+    }
+  }
+}
