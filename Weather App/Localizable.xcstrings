@@ -1,0 +1,498 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "citySearch.prompt.message" : {
+      "comment" : "Hint shown when the search bar is active but empty",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start typing a city name, e.g. “Aus”."
+          }
+        }
+      }
+    },
+    "citySearch.prompt.title" : {
+      "comment" : "Title shown when the search bar is active but empty",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Search Cities"
+          }
+        }
+      }
+    },
+    "details.cloudCover" : {
+      "comment" : "Detail tile: percentage of sky covered by clouds",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cloud Cover"
+          }
+        }
+      }
+    },
+    "details.feelsLike" : {
+      "comment" : "Detail tile: apparent temperature",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feels Like"
+          }
+        }
+      }
+    },
+    "details.humidity" : {
+      "comment" : "Detail tile: relative humidity",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Humidity"
+          }
+        }
+      }
+    },
+    "details.pressure" : {
+      "comment" : "Detail tile: air pressure",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pressure"
+          }
+        }
+      }
+    },
+    "details.sunrise" : {
+      "comment" : "Detail tile: sunrise time",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sunrise"
+          }
+        }
+      }
+    },
+    "details.sunset" : {
+      "comment" : "Detail tile: sunset time",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sunset"
+          }
+        }
+      }
+    },
+    "details.visibility" : {
+      "comment" : "Detail tile: how far one can see",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visibility"
+          }
+        }
+      }
+    },
+    "details.wind" : {
+      "comment" : "Detail tile: wind speed",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wind"
+          }
+        }
+      }
+    },
+    "error.cannotConnect.title" : {
+      "comment" : "Error: online, but the server couldn't be reached",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We couldn't reach the weather service."
+          }
+        }
+      }
+    },
+    "error.cityNotFound.title" : {
+      "comment" : "Error: city search had no match",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We couldn't find that city."
+          }
+        }
+      }
+    },
+    "error.cityNotFoundNamed.title" : {
+      "comment" : "Error: city search had no match; the argument is what the user typed",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We couldn't find “%@”."
+          }
+        }
+      }
+    },
+    "error.emptyQuery.title" : {
+      "comment" : "Error: search submitted with no text",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a city name to search."
+          }
+        }
+      }
+    },
+    "error.invalidAPIKey.title" : {
+      "comment" : "Error: API key refused by the server",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The weather service rejected our request."
+          }
+        }
+      }
+    },
+    "error.locationDenied.title" : {
+      "comment" : "Error: user denied location permission",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location access is turned off."
+          }
+        }
+      }
+    },
+    "error.locationUnavailable.title" : {
+      "comment" : "Error: location lookup failed",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We couldn't determine your location."
+          }
+        }
+      }
+    },
+    "error.missingAPIKey.title" : {
+      "comment" : "Error: app built without an API key",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The weather service isn't configured."
+          }
+        }
+      }
+    },
+    "error.offline.title" : {
+      "comment" : "Error: no internet connection",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You appear to be offline."
+          }
+        }
+      }
+    },
+    "error.rateLimited.title" : {
+      "comment" : "Error: server rate limit reached",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Too many requests right now."
+          }
+        }
+      }
+    },
+    "error.serverError.title" : {
+      "comment" : "Error: server returned a 5xx status",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The weather service is having trouble."
+          }
+        }
+      }
+    },
+    "error.suggestion.allowLocation" : {
+      "comment" : "Hint under the location-denied error",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow location access in Settings, or search for a city."
+          }
+        }
+      }
+    },
+    "error.suggestion.checkAPIKey" : {
+      "comment" : "Hint under an API key error (developer-facing; the path is a file name, don't translate it)",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check the API key in Config/Secrets.xcconfig."
+          }
+        }
+      }
+    },
+    "error.suggestion.checkConnection" : {
+      "comment" : "Hint under a connectivity error",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check your internet connection and try again."
+          }
+        }
+      }
+    },
+    "error.suggestion.searchExample" : {
+      "comment" : "Hint under a search error",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try a city such as “Austin”, “Austin, TX” or “Paris, FR”."
+          }
+        }
+      }
+    },
+    "error.suggestion.tryAgain" : {
+      "comment" : "Generic hint under a transient error",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please try again."
+          }
+        }
+      }
+    },
+    "error.suggestion.waitAndRetry" : {
+      "comment" : "Hint under a rate-limit error",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please wait a minute and try again."
+          }
+        }
+      }
+    },
+    "error.timeout.title" : {
+      "comment" : "Error: request timed out",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The request took too long."
+          }
+        }
+      }
+    },
+    "error.unexpectedData.title" : {
+      "comment" : "Error: response couldn't be read",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We received unexpected weather data."
+          }
+        }
+      }
+    },
+    "error.unknown.title" : {
+      "comment" : "Error: anything not covered by a more specific message",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong."
+          }
+        }
+      }
+    },
+    "weather.currentLocation" : {
+      "comment" : "Place name when the weather service returns no station name",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current Location"
+          }
+        }
+      }
+    },
+    "weather.currentLocationButton.accessibilityLabel" : {
+      "comment" : "VoiceOver label for the location arrow button",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use current location"
+          }
+        }
+      }
+    },
+    "weather.empty.message" : {
+      "comment" : "Hint shown before any weather is loaded",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a city above, or tap the location button for weather where you are."
+          }
+        }
+      }
+    },
+    "weather.empty.title" : {
+      "comment" : "Title shown before any weather is loaded",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search for a City"
+          }
+        }
+      }
+    },
+    "weather.error.openSettings" : {
+      "comment" : "Button that opens the Settings app to allow location access",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Settings"
+          }
+        }
+      }
+    },
+    "weather.error.tryAgain" : {
+      "comment" : "Button that repeats the failed request",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try Again"
+          }
+        }
+      }
+    },
+    "weather.highLow" : {
+      "comment" : "Today's high and low temperature; both are formatted temperatures such as 75°",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "H: %@  L: %@"
+          }
+        }
+      }
+    },
+    "weather.loading" : {
+      "comment" : "Shown while weather is being fetched",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading weather…"
+          }
+        }
+      }
+    },
+    "weather.search.placeholder" : {
+      "comment" : "Placeholder in the city search bar",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search city, e.g. Austin, TX"
+          }
+        }
+      }
+    },
+    "weather.title" : {
+      "comment" : "Navigation bar title of the main screen",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weather"
+          }
+        }
+      }
+    },
+    "weather.unitToggle.accessibilityLabel" : {
+      "comment" : "VoiceOver label for the °F/°C switch",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperature unit"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
