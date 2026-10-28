@@ -1,0 +1,4 @@
+// Base.xcconfig — committed. Real secrets live in Secrets.xcconfig (gitignored).
+// Copy Secrets.example.xcconfig → Secrets.xcconfig and paste your OpenWeather key.
+OWM_API_KEY =
+#include? "Secrets.xcconfig"
